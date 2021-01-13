@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('raleway.ttf') format('truetype')
+}
+
+html {
+    font-family: 'Raleway';
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #5797e0;
+    transition: color 0.25s;
+}
+
+a:visited {
+    color: #5797e0;
+}
+
+a:hover {
+    color: #707ecf;
+}
+
+body {
+    text-align: center;
+}
+
+#content {
+    max-width: 800px;
+    width: 80%;
+    padding: 50px;
+    display: inline-block;
+}
+
+.separator {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid lightgray;
+    border-radius: 1px;
+}
+
+#titleimage {
+    background-image: url("banner.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px lightgray;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 28%;
+    background-color: rgba(209, 209, 209, 0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    width: fit-content;
+    border-radius: 30px;
+    padding: 25px 40px 25px 40px;
+    margin: auto;
+}
+
+#justin {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#names {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: left;
+    cursor: default;
+}
+
+.name {
+    margin: 0;
+    font-size: 24pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#tagline {
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.button {
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 20%;
+    display: inline-block;
+    box-shadow: 0px 10px 10px 0 lightgray;
+    transition: opacity 0.25s, transform 0.25s, box-shadow 0.25s;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.1);
+    box-shadow: 0px 11px 11px 0 lightgray;
+}
+
+.button:active {
+    transform: scale(0.8);
+    box-shadow: 0px 3px 5px 0 lightgray;
+}
+
+.buttontext {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#resume {
+    background-color: #cf7070;
+}
+
+#appstore {
+    background-color: #7076cf;
+}
+
+#github {
+    background-color: #8d8d8d;
+}
+
+.linkicon {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    vertical-align: middle;
+    filter: invert(100%);
+    display: inline-block;
+}
+
+#intro {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+footer {
+    padding: 20px;
+    color: lightgray;
+}
+
+.unselectable {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
