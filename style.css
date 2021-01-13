@@ -33,13 +33,6 @@ body {
     display: inline-block;
 }
 
-@media only screen and (max-width: 800px) {
-    #title {
-        width: 80%;
-        padding: 25px;
-    }
-}
-
 .separator {
     margin: auto;
     margin-top: 40px;
@@ -70,12 +63,6 @@ body {
     border-radius: 30px;
     padding: 25px 40px 25px 40px;
     margin: auto;
-}
-
-@media only screen and (max-width: 800px) {
-    #title {
-        top: 0%;
-    }
 }
 
 #justin {
@@ -166,15 +153,8 @@ body {
     margin-right: 40px;
 }
 
-@media only screen and (max-width: 800px) {
-    #title {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-}
-
 footer {
-    padding: 20px;
+    padding: 20px 20px 80px 20px;
     color: lightgray;
 }
 
@@ -182,4 +162,28 @@ footer {
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
+}
+
+@media only screen and (max-width: 800px) {
+    #content {
+        padding: 25px;
+    }
+
+    #intro {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #titleimage {
+        height: auto;
+    }
+
+    #title {
+        top: 20%;
+        padding: 35px 10px 25px 10px;
+    }
+
+    .button {
+        width: 50%;
+    }
 }
